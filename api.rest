@@ -3,12 +3,12 @@ GET http://localhost:3000/ HTTP/1.1
 
 ###
 # GET : All Note
-GET http://localhost:3000/notes HTTP/1.1
+GET https://be-rest-991771824221.us-central1.run.app/notes HTTP/1.1
 Content-Type: application/json
 
 ### 
 # GET : Note by ID
-GET http://localhost:3000/notes/1 HTTP/1.1
+GET https://be-rest-991771824221.us-central1.run.app/notes/1 HTTP/1.1
 
 ###
 # GET : Create Note
