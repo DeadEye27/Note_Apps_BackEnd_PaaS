@@ -7,10 +7,7 @@ import {sequelize} from './config/database.js'
 const app = express();
 // app.use(bodyParser.json());
 
-app.use(cors({
-    origin: ['https://frontend-notes-abid-dot-d-35-489204.uc.r.appspot.com'],
-    credentials: true
-}));
+app.use(cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
