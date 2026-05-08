@@ -8,7 +8,7 @@ const app = express();
 // app.use(bodyParser.json());
 
 app.use(cors({
-    origin: ['http://localhost', 'http://localhost:5173', 'http://127.0.0.1:5500', 'http://127.0.0.1:5501', 'http://34.172.113.167', 'https://frontend-notes-abid-dot-d-35-489204.uc.r.appspot.com/'],
+    origin: ['http://localhost', 'http://localhost:5173', 'http://127.0.0.1:5500', 'http://127.0.0.1:5501', 'http://34.172.113.167', 'https://frontend-notes-abid-dot-d-35-489204.uc.r.appspot.com'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials:true,
 }));
