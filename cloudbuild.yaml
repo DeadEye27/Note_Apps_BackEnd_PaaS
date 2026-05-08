@@ -30,7 +30,7 @@ steps:
       [
         "run",
         "deploy",
-        "be-rest",
+        "be-rest-abid",
         "--image",
         "gcr.io/$PROJECT_ID/tcc-be-rest",
         "--timeout",
