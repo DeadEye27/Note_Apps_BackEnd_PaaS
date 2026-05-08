@@ -8,7 +8,7 @@ const app = express();
 // app.use(bodyParser.json());
 
 app.use(cors({
-    origin: ['https://frontend-notes-abid-dot-d-35-489204.uc.r.appspot.com'],
+    origin: ['frontend-notes-abid-dot-d-35-489204.uc.r.appspot.com'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
 
