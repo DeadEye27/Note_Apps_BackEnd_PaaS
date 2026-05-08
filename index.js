@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import {sequelize} from './config/database.js'
 
 const app = express();
-// app.use(bodyParser.json());
+// app.use (bodyParser.json());
 
 app.use(cors());
 
